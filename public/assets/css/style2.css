@@ -1,0 +1,111 @@
+*{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1511649475669-e288648b2339?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-bottom: 15%;
+    color: white;
+    padding: 2rem;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+}
+
+header p {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+button {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #000000 0%,#000000 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button a {
+    color: aliceblue;
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+  }
+  
+  button svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+  }
+  
+  button .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+  }
+  
+  button:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  button:hover svg {
+    transform: rotate(45deg);
+  }
+  
+
+button a{
+    text-decoration: none;
+}
+
+footer {
+    color: #000;
+    font-size: 2em;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

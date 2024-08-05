@@ -1,0 +1,35 @@
+
+body{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    background-image: url('https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+#createNewCliente{
+    margin-bottom: 20px;
+}
+
+#vista_direcciones{
+    margin-bottom: 20px;
+}
+
+#createNewDireccion{
+    margin-bottom: 20px;
+}
+
+#vista_ventas{
+    margin-bottom: 20px;
+}
+
+#createNewVenta{
+    margin-bottom: 20px;
+}
+
+#vista_index{
+    margin-bottom: 20px;
+}
+.error_Asosiciacion_cliente{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000 ;
+    font-size: 1.5em;
+    border: 2px solid black;
+}
